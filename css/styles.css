@@ -1,0 +1,14 @@
+.bg-dribbble_logo {
+    width: 24x; height: 24px;
+    background-color: #ea4c89;
+}
+
+.bg-icon {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png');
+}
+
+.bg-23681 {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png');
+}
