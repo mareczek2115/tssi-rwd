@@ -1,43 +1,43 @@
 .stopka{
     display: flex;
-    /* background-color: blue; */
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .socials-icons{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.social{
-    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 body{
-    background-color: rgb(230, 230, 230);
+    background-color: #ffffff;
 }
 
 footer{
     display: flex;
+    justify-content: space-evenly;
+}
+
+.kontakt{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-size: 16px;
+    align-items: flex-start;
+    line-height: 5px;
+    margin-top: 15px;
 }
 
 .footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .photo{
     transition: ease 0.7s;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }
 
 .portfolio{

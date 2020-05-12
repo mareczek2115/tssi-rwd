@@ -13,7 +13,7 @@
     $(document).ready(function(){
       $(".photo").hover(function(){
         $(this).css("scale", "1.2");
-        $(this).css("z-index", "5");
+        $(this).css("z-index", "1");
       }, function(){
         $(this).css("scale", "1");
         $(this).css("z-index", "");
@@ -54,7 +54,7 @@
   </header>
 
   <form class="container clearfix">
-  <div class="ten columns buttons">
+  <div class="eleven columns buttons">
     <a href="#" class="button">Wszystkie</a>
     <a href="#" class="button">Ilustracje</a>
     <a href="#" class="button">Plakaty</a>
@@ -62,7 +62,7 @@
     <a href="#" class="button">Opakowania</a>
   </div>
   <section class="portfolio">
-    <figure class="eleven columns all poster" data-category="ilustracje">
+    <figure class="twelve columns all poster" data-category="ilustracje">
       <figcaption class="four columns">
         <h4>Lorem Ipsum</h4>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -72,9 +72,9 @@
       </figcaption>
       <div class="photos">
         <img class="photo" src="images/ilustracje.png" title="Ilustracje" alt="">
+        <img class="photo" src="images/plakaty.png" title="Plakaty" alt="">
         <img class="photo" src="images/typografia.png" title="Typografia" alt="">
         <img class="photo" src="images/opakowania.png" title="Opakowania" alt="">
-        <img class="photo" src="images/plakaty.png" title="Plakaty" alt="">
         </div>
     </figure>
   </section>
@@ -82,22 +82,17 @@
   </form>
 </div>
  
-<div class="container footer">
+<div class="six offset-by-three columns footer">
   <footer class="eleven columns stopka">
-    <div class="">
-      <ul style="list-style: none;">
-      <li class="contact-name">Piotr Niewiadomski</li>
-      <li class="contact-phone">(+48) 600-700-800</li>
-      <li class="contact-email">piotrek@niewiadomski.pl</li>
-      </ul>
+    <div class="socials-icons four columns">
+      <a href="#"><img id="dribbble" title="Dribbble" onmouseover="hoveredSocial(this.id)" onmouseout="notHoveredSocial(this.id)" src="images/dribbble-black.png" alt=""></a>
+      <a href="#"><img id="facebook" title="Facebook" onmouseover="hoveredSocial(this.id)" onmouseout="notHoveredSocial(this.id)" src="images/facebook-black.png" alt=""></a>
+      <a href="#"><img id="twitter" title="Twitter" onmouseover="hoveredSocial(this.id)" onmouseout="notHoveredSocial(this.id)" src="images/twitter-black.png" alt=""></a>
     </div>
-    <div class="social">
-      <p class="copyright">Piotr Niewiadomski</p>
-      <div class="socials-icons"></div>
-        <a href="#"><img id="dribbble" title="Dribbble" onmouseover="hoveredSocial(this.id)" onmouseout="notHoveredSocial(this.id)" src="images/dribbble-black.png" alt=""></a>
-        <a href="#"><img id="facebook" title="Facebook" onmouseover="hoveredSocial(this.id)" onmouseout="notHoveredSocial(this.id)" src="images/facebook-black.png" alt=""></a>
-        <a href="#"><img id="twitter" title="Twitter" onmouseover="hoveredSocial(this.id)" onmouseout="notHoveredSocial(this.id)" src="images/twitter-black.png" alt=""></a>
-      </div>
+    <div class="four columns container kontakt">
+      <p class="contact-name">Piotr Niewiadomski</p>
+      <p class="contact-phone">(+48) 600-700-800</p>
+      <p class="contact-email">piotrek@niewiadomski.pl</p>
     </div>
   </footer>
 </div> 
