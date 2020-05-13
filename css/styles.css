@@ -39,27 +39,3 @@ footer{
     transition: ease 0.7s;
     margin-top: 1.2rem;
 }
-
-.portfolio{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.photos{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.clearfix{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
